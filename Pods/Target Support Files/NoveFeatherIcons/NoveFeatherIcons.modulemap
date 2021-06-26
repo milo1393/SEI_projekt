@@ -1,0 +1,6 @@
+framework module NoveFeatherIcons {
+  umbrella header "NoveFeatherIcons-umbrella.h"
+
+  export *
+  module * { export * }
+}
