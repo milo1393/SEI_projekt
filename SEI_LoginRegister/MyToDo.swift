@@ -1,9 +1,8 @@
 //
 //  MyToDo.swift
-//  SEI_enterPin
+//  SEI_LoginRegister
 //
-//  Created by Marko Milosavljevic on 16.06.21.
-//
+//  Created by Marko Milosavljevic on 26.06.21.
 
 import Foundation
 

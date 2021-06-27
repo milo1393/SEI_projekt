@@ -20,6 +20,7 @@ class TableViewController: UITableViewController {
         
         
         title = "To-Do List"
+        self.navigationController?.navigationBar.tintColor = UIColor(named: "highlight")
         navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Add", style: .plain, target: self, action: #selector(didTapAddItemButton))
         tableView.register(UITableViewCell.self, forCellReuseIdentifier: "SB_ToDO_cell")
     }
