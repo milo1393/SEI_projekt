@@ -110,23 +110,17 @@
 		AD048A272687853800D5A7BB /* SEI_LoginRegister */ = {
 			isa = PBXGroup;
 			children = (
-				AD531EB82687BBD600C416AA /* TableViewController.swift */,
-				AD531EBA2687BC2900C416AA /* MyToDo.swift */,
+				AD531EBC2688896F00C416AA /* VC */,
 				AD531EB72687B1B800C416AA /* StoryBoard */,
 				AD531EA32687A75600C416AA /* Models */,
 				AD048A282687853800D5A7BB /* AppDelegate.swift */,
 				AD048A2A2687853800D5A7BB /* SceneDelegate.swift */,
-				AD048A2C2687853800D5A7BB /* ViewController.swift */,
 				AD048A312687853800D5A7BB /* Assets.xcassets */,
 				AD74809D26879D9900ACD59B /* FeatherIcons.xcassets */,
 				AD74809F26879DA800ACD59B /* Colors.xcassets */,
-				AD048A3C26878A1600D5A7BB /* LoginViewController.swift */,
 				AD74809926879D0C00ACD59B /* CustomUITextField.swift */,
 				AD74809B26879D5A00ACD59B /* CustomUIButton.swift */,
-				AD7480A12687A06700ACD59B /* ForgotPasswordViewController.swift */,
 				AD7480A32687A0CD00ACD59B /* Extensions.swift */,
-				AD7480A52687A12100ACD59B /* RegisterViewController.swift */,
-				AD531EB32687AACF00C416AA /* CustomTabBar.swift */,
 				AD048A362687853800D5A7BB /* Info.plist */,
 				AD531EB52687AC6800C416AA /* GoogleService-Info.plist */,
 			);
@@ -158,6 +152,20 @@
 				AD531EB12687A8C400C416AA /* LaunchScreen.storyboard */,
 			);
 			path = StoryBoard;
+			sourceTree = "<group>";
+		};
+		AD531EBC2688896F00C416AA /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				AD531EB32687AACF00C416AA /* CustomTabBar.swift */,
+				AD048A3C26878A1600D5A7BB /* LoginViewController.swift */,
+				AD7480A52687A12100ACD59B /* RegisterViewController.swift */,
+				AD7480A12687A06700ACD59B /* ForgotPasswordViewController.swift */,
+				AD531EB82687BBD600C416AA /* TableViewController.swift */,
+				AD531EBA2687BC2900C416AA /* MyToDo.swift */,
+				AD048A2C2687853800D5A7BB /* ViewController.swift */,
+			);
+			path = VC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
